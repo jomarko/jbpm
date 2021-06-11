@@ -14,14 +14,15 @@
  * limitations under the License.
  */
 
-package org.jbpm.process.workitem.bpmn2;
+package org.jbpm.workflow.instance.node;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.jbpm.process.workitem.bpmn2.objects.Person;
+import org.jbpm.process.instance.impl.util.TypeTransformer;
+import org.jbpm.process.test.Person;
 import org.junit.Assert;
 import org.junit.Test;
 
