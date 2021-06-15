@@ -194,26 +194,6 @@ public class BusinessRuleTaskTest {
                      ResourceType.BPMN2);
         kbuilder.add(ResourceFactory.newClassPathResource("businessRuleTaskDMN.bpmn2"),
                      ResourceType.BPMN2);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNDate.dmn"),
-                     ResourceType.DMN);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNPeriod.dmn"),
-                     ResourceType.DMN);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNNestedStructure.dmn"),
-                     ResourceType.DMN);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNStructureFieldNameMismatch.dmn"),
-                     ResourceType.DMN);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNWithMoreTypesStructure.dmn"),
-                     ResourceType.DMN);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNDateProcess.bpmn"),
-                     ResourceType.BPMN2);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNPeriodProcess.bpmn"),
-                     ResourceType.BPMN2);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNNestedStructureProcess.bpmn"),
-                     ResourceType.BPMN2);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNStructureFieldNameMismatchProcess.bpmn"),
-                     ResourceType.BPMN2);
-        kbuilder.add(ResourceFactory.newClassPathResource("org/jbpm/test/functional/task/buildDMNWithMoreTypesStructureProcess.bpmn"),
-                     ResourceType.BPMN2);
         kbuilder.add(ResourceFactory.newClassPathResource("string-passthru.dmn"),
                      ResourceType.DMN);
         kbuilder.add(ResourceFactory.newClassPathResource("calling-dmn-passthru.bpmn2"),
